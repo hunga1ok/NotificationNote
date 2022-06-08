@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">@font/ajaib_font</item>
+        <item name="android:windowBackground">@color/surface</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+        <item name="snackbarStyle">@style/Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/SnackbarTextView</item>
+        <item name="snackbarButtonStyle">@style/SnackbarButton</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/ajaib_font</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/ajaib_font</item>
+    </style>
+
+    <style name="BlankTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/transparent</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/transparent</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="bottomSheetDialogTheme">@style/RoundedBottomSheetDialog.blue</item>
+    </style>
+
+    <style name="GreyTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/neutral_700</item>
+        <item name="colorAccent">@color/neutral_700</item>
+    </style>
+
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="colorAccent">@color/redPrimary</item>
+    </style>
+
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/greenPrimary</item>
+        <item name="colorAccent">@color/greenPrimary</item>
+    </style>
+
+    <style name="WhiteTheme" parent="AppTheme">
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="OrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/yellowPrimary</item>
+        <item name="colorAccent">@color/blueSecondaryDark</item>
+    </style>
+
+    <style name="textToggleable">
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="dialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="RoundedBottomSheetDialog" parent="@style/Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/RoundedBottomSheet</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RoundedDayNightBottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/RoundedBottomSheet</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RoundedBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/RoundedShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="RoundedBottomSheetDialog.blue" parent="RoundedBottomSheetDialog">
+        <item name="android:backgroundTint">@color/bluePrimary</item>
+        <item name="bottomSheetStyle">@style/BlueBottomSheetStyle</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BlueBottomSheetStyle" parent="RoundedBottomSheet">
+        <item name="android:background">@color/bluePrimary</item>
+    </style>
+
+    <style name="RoundedShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/corner_radius</item>
+        <item name="cornerSizeTopLeft">@dimen/corner_radius</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="backgroundColor">@color/surface</item>
+    </style>
+
+    <style name="InputDialogStyle" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">@dimen/icon_size_x_small</item>
+        <item name="android:layout_height">@dimen/icon_size_x_small</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="cv" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:layout_marginRight">-3dp</item>
+        <item name="android:layout_marginLeft">-3dp</item>
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="android:foreground">?selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="cv.flat" parent="cv">
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="cv.flat.gray.stoked" parent="cv.flat">
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@drawable/bg_gray_light_stroke_rounded</item>
+    </style>
+
+    <style name="cvSmall" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/corner_radius_small</item>
+        <item name="cardElevation">@dimen/dp_3</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:layout_marginRight">-3dp</item>
+        <item name="android:layout_marginLeft">-3dp</item>
+        <item name="android:foreground">?selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIconTint">@color/tab_color</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="tabTextAppearance">@style/Text.Tab.Main</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:color">@color/tab_color</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="text.error" parent="Text.XSmall">
+        <item name="android:textColor">@color/redPrimary</item>
+    </style>
+
+    <style name="text.hint" parent="Text.Small">
+        <item name="android:textColor">@color/text_hint</item>
+    </style>
+
+    <style name="tilOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="errorTextAppearance">@style/text.error</item>
+        <item name="hintTextAppearance">@style/text.hint</item>
+        <item name="helperTextTextAppearance">@style/Text.Small</item>
+    </style>
+
+    <style name="tilFilled" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="errorTextAppearance">@style/text.error</item>
+        <item name="hintTextAppearance">@style/text.hint</item>
+        <item name="helperTextTextAppearance">@style/Text.Small</item>
+    </style>
+
+    <style name="til.filled.dropdown" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="errorTextAppearance">@style/text.error</item>
+        <item name="hintTextAppearance">@style/text.hint</item>
+        <item name="helperTextTextAppearance">@style/Text.Small</item>
+    </style>
+
+    <style name="til.normal.dropdown" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="errorTextAppearance">@style/text.error</item>
+        <item name="hintTextAppearance">@style/text.hint</item>
+        <item name="helperTextTextAppearance">@style/Text.Small</item>
+        <item name="boxCollapsedPaddingTop">6dp</item>
+        <item name="boxBackgroundColor">@color/transparent</item>
+    </style>
+
+    <style name="til.normal" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/transparent</item>
+        <item name="boxCollapsedPaddingTop">6dp</item>
+    </style>
+
+    <style name="text.section.majesty" parent="Text.Small">
+        <item name="android:textAppearance">@style/Text</item>
+    </style>
+
+    <style name="etMajesty" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">@style/Text</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+        <item name="android:tint">@color/text_hint</item>
+    </style>
+
+    <style name="etMajestyKyc" parent="Body.Large">
+        <item name="minHeight">@dimen/sp_20</item>
+        <item name="android:textColorHint">@color/kyc_majesty_hint</item>
+        <item name="android:textColor">@color/kyc_majesty_title</item>
+    </style>
+
+    <style name="tvMajestyKyc" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_16</item>
+        <item name="android:textColor">@color/kyc_majesty_title</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellowPrimary</item>
+        <item name="colorControlActivated">@color/greyPrimaryDark</item>
+    </style>
+
+
+</resources>

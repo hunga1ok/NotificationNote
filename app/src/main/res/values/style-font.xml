@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text" parent="Widget.AppCompat.TextView">
+        <item name="android:enabled">true</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="Text.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!--region Normal-->
+    <style name="Text.XSmall">
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text.XXSmall">
+        <item name="android:textSize">@dimen/sp_8</item>
+    </style>
+
+    <style name="Text.XSmall.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.XSmall.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Small">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.Small.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Small.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Text.Small.Blue">
+        <item name="android:textColor">@color/ajaibPrimary</item>
+    </style>
+
+    <style name="Text.Small.Secondary.Light">
+        <item name="android:textColor">@color/neutral_400</item>
+    </style>
+
+    <style name="Text.Small.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Large">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="Text.Large.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.XLarge">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="Text.XXLarge">
+        <item name="android:textSize">@dimen/sp_25</item>
+    </style>
+    <!--endregion-->
+
+    <!--region Bold-->
+    <style name="Text.Bold">
+        <item name="android:fontFamily">@font/lato_bold</item>
+    </style>
+
+    <style name="Text.Bold.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Text.Bold.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Bold.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Text.Bold.XSmall">
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+
+    <style name="Text.Bold.XSmall.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Bold.Small">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.Bold.Small.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Bold.Small.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Text.Bold.Large">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="Text.Bold.Alt">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Bold.Large.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Bold.XLarge">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="Text.Bold.XXLarge">
+        <item name="android:textSize">@dimen/sp_25</item>
+    </style>
+
+    <style name="Text.Bold.XXXLarge">
+        <item name="android:textSize">@dimen/sp_40</item>
+    </style>
+    <!--endregion-->
+
+    <style name="LeadLarge" parent="Text.Bold.XXLarge">
+        <item name="minHeight">@dimen/dp_30</item>
+    </style>
+
+    <style name="LeadLarge.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LeadMedium" parent="Text.Bold.XLarge">
+        <item name="minHeight">@dimen/sp_24</item>
+    </style>
+
+    <style name="LeadMedium.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LeadMedium.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="LeadSmall" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_18</item>
+    </style>
+
+    <style name="LeadSmallAlt" parent="Text.Bold.Alt">
+        <item name="minHeight">@dimen/sp_24</item>
+    </style>
+
+    <style name="LeadSmall.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Section.Large" parent="Text.Bold.Large">
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+        <item name="minHeight">@dimen/dp_18</item>
+    </style>
+
+    <style name="Section.Large.FlatVertical" parent="Text.Bold.Large">
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="minHeight">@dimen/dp_18</item>
+    </style>
+
+    <style name="Section.Large.NoPadding" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/dp_18</item>
+    </style>
+
+    <style name="Section.Large.Flat" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/dp_18</item>
+        <item name="android:paddingLeft">@dimen/dp_0</item>
+        <item name="android:paddingRight">@dimen/dp_0</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+    </style>
+
+    <style name="Section.Regular" parent="Text">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dp_8</item>
+        <item name="android:textColor">@color/neutral_900</item>
+    </style>
+
+    <style name="Section.Medium" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_16</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+    </style>
+
+    <style name="Section.Medium.Flat">
+        <item name="android:paddingLeft">@dimen/dp_0</item>
+        <item name="android:paddingRight">@dimen/dp_0</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+    </style>
+
+    <style name="Section.Medium.NoPadding">
+        <item name="android:paddingLeft">@dimen/dp_0</item>
+        <item name="android:paddingRight">@dimen/dp_0</item>
+        <item name="android:paddingTop">@dimen/dp_0</item>
+        <item name="android:paddingBottom">@dimen/dp_0</item>
+    </style>
+
+    <style name="Section.Medium.NoPadding.Blue">
+        <item name="android:textColor">@color/text_blue_dark</item>
+    </style>
+
+    <style name="SubSection" parent="Text.Small">
+        <item name="minHeight">@dimen/sp_14</item>
+    </style>
+
+    <style name="Popup.Title" parent="Text.Bold.XLarge"/>
+
+    <style name="Popup.Body" parent="Text.Large">
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <!-- region Body   -->
+    <style name="Body" parent="Text">
+        <item name="minHeight">@dimen/sp_16</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Section" parent="Text">
+        <item name="minHeight">@dimen/sp_20</item>
+    </style>
+
+    <style name="Body.Bold.Section" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_20</item>
+    </style>
+
+    <style name="Body.Section.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Medium">
+        <item name="lineHeight">@dimen/dp_20</item>
+    </style>
+
+    <style name="Body.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Body.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Body.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.Small" parent="Text.Small">
+        <item name="minHeight">@dimen/sp_14</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Small.Blue.Light" parent="Text.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Body.Small.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.Small.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Body.Small.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Small.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.Small.Error">
+        <item name="android:textColor">@color/red_500</item>
+    </style>
+
+    <style name="Body.Small.Blue">
+        <item name="android:textColor">@color/text_blue_dark</item>
+    </style>
+
+    <style name="Body.XSmall" parent="Text.XSmall">
+        <item name="minHeight">@dimen/sp_12</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.XSmall.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.XXSmall" parent="Text.XXSmall">
+        <item name="minHeight">@dimen/sp_12</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.XXSmall.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.XSmall.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.XSmall.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Large" parent="Text.Large">
+        <item name="minHeight">@dimen/sp_18</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.LargeAlt" parent="Text.Large">
+        <item name="minHeight">@dimen/sp_24</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Bold.LargeAlt" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_24</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Large.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+
+    <style name="Body.Large.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Large.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.Bold" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_16</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="Body.Bold.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Bold.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.Bold.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Body.Bold.Blue.Secondary">
+        <item name="android:textColor">@color/text_blue_dark</item>
+    </style>
+
+    <style name="Body.Bold.Small" parent="Text.Bold.Small">
+        <item name="minHeight">@dimen/sp_14</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Bold.Small.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Bold.Small.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Body.Bold.Small.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.Bold.Small.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.Bold.XSmall" parent="Text.Bold.XSmall">
+        <item name="minHeight">@dimen/sp_12</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Bold.XSmall.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Bold.XSmall.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Body.Bold.XSmall.Blue">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Body.Bold.XSmall.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Body.Bold.Large" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_18</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Bold.Large.Alt" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_24</item>
+    </style>
+
+    <style name="Body.Bold.XLarge" parent="Text.Bold.XLarge">
+        <item name="minHeight">@dimen/sp_24</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="Body.Bold.Large.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Body.Bold.Large.Blue">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <!-- endregion   -->
+
+    <style name="Caption" parent="Text.Small">
+        <item name="minHeight">@dimen/sp_14</item>
+    </style>
+
+    <style name="Caption.Small" parent="Text.XSmall">
+        <item name="minHeight">@dimen/sp_12</item>
+    </style>
+
+    <style name="Caption.Small.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Caption.Small.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Caption.Small.Red">
+        <item name="android:textColor">@color/redPrimary</item>
+    </style>
+
+    <style name="Caption.Bold" parent="Text.Bold.Small">
+        <item name="minHeight">@dimen/sp_14</item>
+    </style>
+
+    <style name="Caption.Bold.Red">
+        <item name="android:textColor">@color/redPrimary</item>
+    </style>
+
+    <style name="Caption.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Caption.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Caption.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Caption.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Caption.Bold.Small" parent="Text.Bold.XSmall">
+        <item name="minHeight">@dimen/sp_12</item>
+    </style>
+
+    <style name="Mobile.Heading1" parent="Text.Bold">
+        <item name="lineHeight">@dimen/dp_24</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Mobile.Heading2" parent="Text.Bold">
+        <item name="lineHeight">@dimen/dp_24</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Mobile.Heading3" parent="Text.Bold">
+        <item name="lineHeight">@dimen/dp_24</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Mobile.SmallCopy.Bold" parent="Text.Bold">
+        <item name="lineHeight">@dimen/dp_20</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Label" parent="Text.XSmall">
+        <item name="minHeight">@dimen/sp_14</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="Label.Bold" parent="Text.Bold.XSmall">
+        <item name="minHeight">@dimen/sp_14</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="Label.Bold.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Label.Bold.Blue">
+        <item name="android:textColor">@color/ajaibPrimary</item>
+    </style>
+
+    <style name="Label.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+
+    <style name="Label.Tertiary">
+        <item name="android:textColor">@color/text_tertiary</item>
+    </style>
+
+    <style name="Label.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.Tab" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_16</item>
+    </style>
+
+    <style name="Text.Tab.Blue" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_16</item>
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="Text.Tab.Main" parent="Text.Small">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/sp_11</item>
+    </style>
+
+    <style name="Text.Tab.Chart" parent="Text.XSmall" />
+
+    <style name="Text.Subtitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--region Button-->
+    <style name="Text.Button" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_16</item>
+    </style>
+
+    <style name="Text.Button.Large" parent="Text.Bold.Large">
+        <item name="minHeight">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Button.LargeAlt" parent="Text.Bold.Alt">
+        <item name="minHeight">@dimen/sp_24</item>
+    </style>
+
+    <style name="Text.Button.Small" parent="Text.Bold.Small">
+        <item name="minHeight">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Button.Small.Light" parent="Text.Small">
+        <item name="minHeight">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Button.Snackbar" parent="Text.Bold">
+        <item name="minHeight">@dimen/sp_12</item>
+    </style>
+
+    <style name="PlaceHolder.Medium" parent="Text.Bold.Inactive">
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+    <style name="Tab.Active" parent="Caption.Bold">
+        <item name="android:textColor">@color/ajaibPrimary</item>
+    </style>
+
+    <style name="Tab.Inactive" parent="Caption.Inactive">
+        <item name="android:textColor">@color/text_inactive</item>
+    </style>
+    <!--endregion-->
+
+</resources>

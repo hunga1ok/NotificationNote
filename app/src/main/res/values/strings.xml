@@ -1,0 +1,15 @@
+<resources>
+    <string name="base_scheme" translatable="false">noti_note</string>
+    <string name="app_name">NotiNote</string>
+    <string name="result_access">Access</string>
+    <string name="result_denied">Denied</string>
+    <string name="result_unknown">Unknown</string>
+    <string name="ALERT_POSITIVE_BUTTON">OK</string>
+    <string name="BACK">Back</string>
+    <string name="EXIT">Exit</string>
+    <string name="TRY_AGAIN">Try again</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="create_notice">Create Notice</string>
+    <string name="add_notice">Add Notice</string>
+</resources>

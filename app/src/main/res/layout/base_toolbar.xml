@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/baseToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/toolbar_color"
+    android:paddingHorizontal="@dimen/dp_16">
+
+    <ImageView
+        android:id="@+id/ivBaseLeft"
+        android:layout_width="@dimen/actionbar_icon_size"
+        android:layout_height="@dimen/actionbar_icon_size"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_back"
+        app:tint="@color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivBaseRight"
+        android:layout_width="@dimen/actionbar_icon_size"
+        android:layout_height="@dimen/actionbar_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_next"
+        app:tint="@color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivBaseRight2"
+        android:layout_width="@dimen/actionbar_icon_size"
+        android:layout_height="@dimen/actionbar_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_toStartOf="@id/ivBaseRight"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_next"
+        app:tint="@color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnBaseRight"
+        style="@style/Button.Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="end|center_vertical"
+        android:textAppearance="@style/Caption"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_toStartOf="@id/ivBaseRight2"
+        android:layout_toEndOf="@id/ivBaseLeft"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBaseTitle"
+            style="@style/LeadSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/vBaseSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/tvBaseSubTitle"
+            style="@style/Text.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

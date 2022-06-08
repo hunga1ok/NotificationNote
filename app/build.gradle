@@ -1,0 +1,75 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.huncorp.myday.notinote"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation AndroidX.androidCoreKTX
+    implementation AndroidX.appCompat
+    implementation AndroidX.material
+    implementation AndroidX.constraint
+    implementation AndroidX.preference
+    implementation AndroidX.preferenceKTX
+    implementation AndroidX.recyclerView
+    implementation OneUI.yanndroid
+    implementation Glide.glide
+    implementation Hilt.core
+    kapt Hilt.compiler
+    implementation Room.ktx
+    implementation Room.runtime
+    kapt Room.compiler
+    implementation KotlinCoroutine.android
+    implementation KotlinCoroutine.rx2
+
+    // added Retrofit 2 and gson
+    implementation Retrofit.retrofit
+    implementation Retrofit.rxAdapter
+    implementation Retrofit.gsonConverter
+    implementation Retrofit.okHttp
+    implementation Retrofit.okHttpLogging
+    implementation Gson.gson
+
+    implementation Joda.time
+
+    annotationProcessor Glide.compiler
+    testImplementation Testing.jUnit
+    androidTestImplementation Testing.jUnitExt
+    androidTestImplementation Testing.espresso
+}

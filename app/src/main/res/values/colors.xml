@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">@color/ajaibPrimary</color>
+    <color name="colorPrimaryLight">@color/ajaibPrimaryLight</color>
+    <color name="colorPrimaryDark">@color/ajaibPrimaryDark</color>
+    <color name="colorPrimarySoft">@color/ajaibBackground</color>
+    <color name="colorAccent">@color/ajaibPrimary</color>
+    <color name="colorAccent_a26">#423a83f9</color>
+
+    <color name="redPrimary">@color/red_500</color>
+    <color name="redPrimaryDark">@color/red_700</color>
+    <color name="redPrimaryLight">@color/red_200</color>
+    <color name="redPrimarySoft">@color/red_50</color>
+
+    <color name="greyPrimary">@color/neutral_400</color>
+    <color name="greyPrimaryDark">@color/neutral_700</color>
+    <color name="greyPrimaryLight">@color/neutral_200</color>
+    <color name="greyPrimarySoft">@color/neutral_50</color>
+
+    <color name="bluePrimary">@color/ajaibPrimary</color>
+    <color name="bluePrimaryLight">@color/ajaibPrimaryLight</color>
+    <color name="bluePrimaryDark">@color/ajaibPrimaryDark</color>
+    <color name="bluePrimarySoft">@color/ajaibBackground</color>
+
+    <color name="blueSecondary">#0858D9</color>
+    <color name="bluePrimaryDarkTransparent">#50092a4b</color>
+    <color name="blueSecondaryDark">#1b3c72</color>
+    <color name="blueArdi">#67b3ff</color>
+
+    <color name="greenPrimary">@color/green_500</color>
+    <color name="greenPrimaryDark">@color/green_700</color>
+
+    <color name="yellowPrimary">@color/yellow_500</color>
+    <color name="yellowPrimaryDark">@color/yellow_700</color>
+    <color name="yellowPrimaryLight">@color/yellow_200</color>
+    <color name="yellowBackgroundSoft">@color/yellow_100</color>
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent_white">#70FFFFFF</color>
+    <color name="transparent_grey">#70424242</color>
+    <color name="transparent_black">#95000000</color>
+    <color name="transparent_light_grey">#40424242</color>
+    <color name="transparent_loading">#10424242</color>
+    <color name="transparent_blue">#70092a4b</color>
+    <color name="transparent_primary">#B33a83f9</color>
+    <color name="loader_background">#80000000</color>
+
+    <color name="text">#333333</color>
+    <color name="text_secondary">@color/neutral_700</color>
+    <color name="text_tertiary">@color/neutral_400</color>
+    <color name="text_blue_dark">@color/ajaibPrimaryDark</color>
+    <color name="text_blue_secondary">@color/neutral_10</color>
+    <color name="text_inactive">@color/neutral_200</color>
+    <color name="text_hint">#808080</color>
+    <color name="text_black">#333333</color>
+
+    <color name="bronze">#f3a864</color>
+    <color name="silver">#adc3d4</color>
+    <color name="gold">#fdca40</color>
+
+    <color name="splash_gradient_start">#0858D9</color>
+    <color name="splash_gradient_end">#3a83f9</color>
+    <color name="loading_background">#757575</color>
+    <color name="placeholder_background">#dddddd</color>
+    <color name="background_light_color">#f8fbff</color>
+    <color name="background_light_default">#E5E5E5</color>
+    <color name="grey_light_stroke">@color/neutral_50</color>
+    <color name="grey_stroke">@color/neutral_100</color>
+
+    <color name="light_blue_gradient_start">#59a8f0</color>
+    <color name="light_blue_gradient_end">#3b84f9</color>
+
+    <color name="blue_gradient_start">#3a83f9</color>
+    <color name="blue_gradient_center">#3a83f9</color>
+    <color name="blue_gradient_end">#59a8f0</color>
+
+    <color name="alternate_list_grey">@color/greyPrimarySoft</color>
+    <color name="technicalGreenBackground">#292ecc71</color>
+    <color name="technicalRedBackground">#29FE6D61</color>
+    <color name="technicalBlueBackground">#293A83F9</color>
+    <color name="calendarSoftBlue">#ebf2fe</color>
+    <color name="blue_primary_dark">@color/ajaibPrimaryDark</color>
+
+    <!--Design System-->
+    <color name="ajaibPrimary">#3A83F9</color>
+    <color name="ajaibPrimaryDark">#2978AE</color>
+    <color name="ajaibPrimaryLight">#CEEBFF</color>
+    <color name="ajaibBackground">#F9FBFF</color>
+
+    <color name="white_background">@color/white</color>
+
+    <color name="neutral_900">#333333</color>
+    <color name="neutral_700">#707070</color>
+    <color name="neutral_400">#ADADAD</color>
+    <color name="neutral_200">#D6D6D6</color>
+    <color name="neutral_100">#ebebeb</color>
+    <color name="neutral_10">#152341</color>
+    <color name="neutral_50">#F5F5F5</color>
+
+    <color name="red_900">#880906</color>
+    <color name="red_700">#D70C09</color>
+    <color name="red_600">#F93A3A</color>
+    <color name="red_500">#FE6D61</color>
+    <color name="red_200">#FA8B89</color>
+    <color name="red_50">#FEECEB</color>
+
+    <color name="green_1200">#10361f</color>
+    <color name="green_700">#267D49</color>
+    <color name="green_500">#36B368</color>
+    <color name="green_200">#72ca95</color>
+    <color name="green_50">#f5fbf7</color>
+
+    <color name="yellow_900">#775403</color>
+    <color name="yellow_700">#C78D05</color>
+    <color name="yellow_500">#FABC2A</color>
+    <color name="yellow_200">#FBD374</color>
+    <color name="yellow_100">#FFF5DA</color>
+    <color name="yellow_50">#FEF9EB</color>
+
+    <!--Component's Color-->
+    <color name="confettiBlue">#3A83F9</color>
+    <color name="confettiBlueTransparent10">#1A3A83F9</color>
+    <color name="confettiDarkBlue">#0858D9</color>
+    <color name="confettiYellow">#FABC2A</color>
+
+    <color name="text_share_1">#bfd6fd</color>
+    <color name="text_share_2">#eaf1ff</color>
+    <color name="text_share_5">#F7B9B6</color>
+
+    <color name="chip_color">@color/colorPrimary</color>
+    <color name="toolbar_color">@color/ajaibPrimary</color>
+    <color name="toolbar_color_light">@color/surface</color>
+    <color name="fullPageBackground">@color/colorPrimary</color>
+    <color name="divider_color">#f5f5f5</color>
+    <color name="tab_color_inactive">@color/neutral_200</color>
+
+    <color name="whatsapp">#25D366</color>
+    <color name="facebook">#3b5999</color>
+
+    <color name="blue_primary_10_pct">#1a3a83f9</color>
+    <color name="green_primary_10_pct">#1a2ecc71</color>
+    <color name="red_primary_10_pct">#1af4766c</color>
+    <color name="gold_primary_10_pct">#1afdca40</color>
+
+    <!--    DERIVATIVES-->
+    <color name="text_blue_secondary_dark">@color/blueSecondaryDark</color>
+    <color name="text_blue_primary_dark">@color/bluePrimaryDark</color>
+    <color name="surface">@color/white</color>
+    <color name="color_error">@color/redPrimary</color>
+    <color name="bg_spotlight">#4D000000</color>
+    <!--    BUTTON-->
+    <color name="button_default">@color/bluePrimary</color>
+    <color name="button_red">@color/redPrimary</color>
+    <color name="button_disable">@color/redPrimary</color>
+    <!--    CARD-->
+    <color name="bg_card">@color/white</color>
+    <color name="bg_card_primary">@color/colorPrimary</color>
+    <color name="bg_card_gradient_start">@color/bg_card</color>
+    <color name="bg_card_gradient_end">@color/bg_card</color>
+    <color name="bg_card_stroke_error">#DF1401</color>
+    <color name="bg_card_error">@color/red_50</color>
+    <color name="bg_card_error_icon">#DF1401</color>
+    <color name="bg_card_error_auth">#FFF3F3</color>
+
+    <color name="bg_card_stroke">@color/grey_stroke</color>
+    <color name="bg_card_stroke_special">@color/grey_stroke</color>
+    <color name="bg_card_stroke_gradient_start">@color/transparent</color>
+    <color name="bg_card_stroke_gradient_end">@color/transparent</color>
+
+    <!--    POPUP/BOTTOM SHEET/MARKER-->
+    <color name="bg_popup">@color/white</color>
+    <color name="bg_bottom_sheet">@color/white</color>
+    <color name="bg_marker">@color/greyPrimaryLight</color>
+    <color name="text_marker">@color/text</color>
+
+    <!--    DROPDOWN-->
+    <color name="bg_dropdown">@color/transparent</color>
+    <color name="dropdown_stroke">@color/grey_stroke</color>
+
+    <!--    TAB-->
+    <color name="tab_primary_background">@color/ajaibPrimary</color>
+    <color name="tab_primary_indicator">@color/white</color>
+    <color name="tab_primary_text">@color/ajaibPrimaryLight</color>
+    <color name="tab_primary_text_selected">@color/white</color>
+
+    <color name="tab_secondary_background">@color/toolbar_color_light</color>
+    <color name="tab_secondary_indicator">@color/ajaibPrimary</color>
+    <color name="tab_secondary_text">@color/neutral_400</color>
+    <color name="tab_secondary_text_selected">@color/ajaibPrimary</color>
+
+    <!--    SWITCH-->
+    <color name="switch_active">@color/ajaibPrimary</color>
+    <color name="switch_inactive">@color/neutral_100</color>
+    <color name="switch_disabled">@color/neutral_50</color>
+
+    <!-- CHAT-->
+    <color name="chat_group_user_chip">@color/white</color>
+    <color name="chat_box_background">@color/neutral_50</color>
+    <color name="chat_box_my_user_bubble">@color/colorPrimaryLight</color>
+    <color name="chat_box_other_user_bubble">@color/white</color>
+    <color name="chat_box_admin_message_bubble">@color/greyPrimaryDark</color>
+
+    <!--    SEARCH BAR-->
+    <color name="text_input_stroke">@color/neutral_200</color>
+    <color name="text_input_tint_icon">@color/neutral_400</color>
+
+    <!--    KYC NEW STYLE-->
+    <color name="kyc_majesty_outlined">#98B2C1</color>
+    <color name="kyc_majesty_toggle_tint">#02183B</color>
+    <color name="kyc_majesty_hint">#98B2C1</color>
+    <color name="kyc_majesty_title">#243B57</color>
+
+    <color name="button_disabled">#E9F1F5</color>
+    <color name="button_text_disabled">#B5CBD6</color>
+    <color name="bg_card_on_boarding">@color/white</color>
+    <color name="close_card_on_boarding">#36526C</color>
+    <!-- MT -->
+    <color name="mt_status_timeline_neutral_200">@color/neutral_200</color>
+    <color name="mt_status_timeline_neutral_900">@color/neutral_900</color>
+    <color name="mt_bg_white">@color/white</color>
+</resources>
