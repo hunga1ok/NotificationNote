@@ -3,13 +3,15 @@ package com.huncorp.myday.notinote.page.main
 import com.huncorp.myday.notinote.R
 import com.huncorp.myday.notinote.base.BaseAdapter2
 import com.huncorp.myday.notinote.databinding.CellNotifyItemBinding
-import com.huncorp.myday.notinote.models.NotifyData
+import com.huncorp.myday.notinote.model.Notice
 
-class AdaNotifyNote : BaseAdapter2<NotifyData>(R.layout.cell_notify_item) {
-    lateinit var binding: CellNotifyItemBinding
-    override fun onBindView(holder: BaseViewHolder, item: NotifyData, pos: Int) {
+class AdaNotifyNote : BaseAdapter2<Notice>(R.layout.cell_notify_item) {
+    private lateinit var binding: CellNotifyItemBinding
+    override fun onBindView(holder: BaseViewHolder, item: Notice, pos: Int) {
         binding = CellNotifyItemBinding.bind(holder.v)
-        binding.tvTitle.text = item.title
-        binding.tvDesc.text = item.desc
+        with(binding) {
+            tvTitle.text = item.title
+            tvDesc.text = item.content
+        }
     }
 }
