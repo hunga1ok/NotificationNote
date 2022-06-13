@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<de.dlyt.yanndroid.oneui.layout.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<de.dlyt.yanndroid.oneui.layout.ToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +11,7 @@
     <de.dlyt.yanndroid.oneui.widget.SwipeRefreshLayout
         android:id="@+id/srl"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/dp_16">
+        android:layout_height="match_parent">
 
         <de.dlyt.yanndroid.oneui.widget.RoundNestedScrollView
             android:layout_width="match_parent"
@@ -32,7 +31,6 @@
                     android:id="@+id/rvList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/dp_16"
                     android:nestedScrollingEnabled="false" />
             </androidx.appcompat.widget.LinearLayoutCompat>
         </de.dlyt.yanndroid.oneui.widget.RoundNestedScrollView>
@@ -47,4 +45,4 @@
         android:src="@drawable/ic_baseline_add_24"
         app:layout_location="root" />
 
-</de.dlyt.yanndroid.oneui.layout.DrawerLayout>
+</de.dlyt.yanndroid.oneui.layout.ToolbarLayout>

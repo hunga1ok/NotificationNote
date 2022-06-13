@@ -235,7 +235,7 @@ object AndroidX {
     private const val nav_version = "2.3.5"
     const val appCompat = "androidx.appcompat:appcompat:1.4.1"
     const val androidCoreKTX = "androidx.core:core-ktx:1.7.0"
-    const val androidCore = "androidx.core:core-ktx:1.7.0"
+    const val androidCore = "androidx.core:core:1.7.0"
     const val fragment = "androidx.fragment:fragment:1.2.5"
     const val fragmentKTX = "androidx.fragment:fragment-ktx:1.2.5"
     const val activity = "androidx.androidx.activity:activity:1.2.0-rc01"

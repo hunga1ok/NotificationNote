@@ -50,7 +50,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView() {
-        setupRecyclerViewOneUI(binding.rvList, adapter)
+        setupRecyclerViewOneUI(binding.rvList, adapter, divider = true)
+        binding.drawerLayout.setTitle("NotiNote")
 
         binding.flAddItem.apply {
             rippleColor = ContextCompat.getColor(this@MainActivity, R2.color.sesl_ripple_color)
