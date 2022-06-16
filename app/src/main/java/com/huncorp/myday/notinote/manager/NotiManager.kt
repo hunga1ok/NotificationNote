@@ -9,7 +9,7 @@ class NotiManager @Inject constructor(
 ) {
     suspend fun getAll() = local.getAll()
     suspend fun getById(id: Long) = local.getById(id)
-    suspend fun insert(notice: Notice) = local.insert(notice)
+    suspend fun insert(title: String, content: String) = local.insert(title, content)
     suspend fun update(notice: Notice) = local.update(notice)
     suspend fun delete(notice: Notice) = local.delete(notice)
 }

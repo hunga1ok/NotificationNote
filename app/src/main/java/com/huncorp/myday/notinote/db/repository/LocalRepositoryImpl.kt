@@ -6,12 +6,13 @@ import javax.inject.Inject
 
 class LocalRepositoryImpl @Inject constructor(
     private val noticeDataSource: NoticeDataSource
-): LocalRepository {
+) : LocalRepository {
     override suspend fun getAll() = noticeDataSource.getAll()
 
     override suspend fun getById(id: Long) = noticeDataSource.getById(id)
 
-    override suspend fun insert(notice: Notice) = noticeDataSource.insert(notice)
+    override suspend fun insert(title: String, content: String) =
+        noticeDataSource.insert(title, content)
 
     override suspend fun update(notice: Notice) = noticeDataSource.update(notice)
 

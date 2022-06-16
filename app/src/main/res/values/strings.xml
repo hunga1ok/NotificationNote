@@ -12,4 +12,6 @@
     <string name="description">Description</string>
     <string name="create_notice">Create Notice</string>
     <string name="add_notice">Add Notice</string>
+    <string name="channel_name">Notify Note Channel</string>
+    <string name="channel_description">This is notification channel for app to show note you write in notification</string>
 </resources>

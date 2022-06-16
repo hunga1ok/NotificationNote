@@ -9,7 +9,8 @@ class NoticeDataSourceImpl @Inject constructor(
 ): NoticeDataSource {
     override suspend fun getAll() = noticeDao.getAllNotice()
     override suspend fun getById(id: Long) = noticeDao.getNoticeById(id)
-    override suspend fun insert(notice: Notice) = noticeDao.insertNotice(notice.title, notice.content)
+    override suspend fun insert(title: String, content: String) = noticeDao.insertNotice(title, content)
+
     override suspend fun update(notice: Notice) =
         noticeDao.updateNoticeById(notice.id, notice.title, notice.content)
 

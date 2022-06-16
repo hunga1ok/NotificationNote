@@ -19,9 +19,7 @@ fun AppCompatActivity.setupRecyclerViewOneUI(
         val divider = DividerItemDecoration(this, manager.orientation)
         rv.addItemDecoration(divider)
     }
-    rv.seslSetGoToTopEnabled(true)
-    rv.seslSetFillBottomEnabled(true)
-    rv.seslSetLastRoundedCorner(false)
+    rv.seslSetLastRoundedCorner(true)
     return manager
 }
 

@@ -31,8 +31,8 @@ interface NoticeDao {
     
     //insert
     @Query("INSERT INTO notice_table (title, content) VALUES (:title, :content)")
-    suspend fun insertNotice(title: String, content: String)
-    
+    suspend fun insertNotice(title: String, content: String): Long
+
     //delete all
     @Query("DELETE FROM notice_table")
     suspend fun deleteAllNotice()
